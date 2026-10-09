@@ -57,7 +57,7 @@ DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'yp_shop.db')
 # Never keep a bot token hard-coded in the source file: Telegram returns
 # "Unauthorized" when the token is invalid/revoked, and exposing a token
 # in source is also a security risk.
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8960892793:AAGxoH7y2CW3ZHREI2phnHtNwCwf3iUtfIg").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8960892793:AAGBOYi2Eboz4TgaUzR7-uQipKLl7avzvjo").strip()
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN is missing. Add the current BotFather token to CloudVPS Environment/Variables as BOT_TOKEN.")
 
